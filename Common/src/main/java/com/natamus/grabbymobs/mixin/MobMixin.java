@@ -1,4 +1,4 @@
-package com.natamus.grabbymobs.neoforge.mixin;
+package com.natamus.grabbymobs.mixin;
 
 import com.natamus.grabbymobs.util.Util;
 import net.minecraft.world.entity.Mob;
