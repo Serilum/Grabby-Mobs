@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "grabbymobs",
-  "version": "1.4",
+  "version": "1.5",
 
   "name": "Grabby Mobs",
   "description": "Makes all mobs which are able to carry gear always be able to do so.",
@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.grabbymobs.ModFabric" ] },
   "mixins": [
-    "grabbymobs_fabric.mixins.json"
+    "grabbymobs.mixins.json"
   ],
 
   "depends": {
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.21"
+    "collective": ">=7.26"
   },
 
   "custom": {
