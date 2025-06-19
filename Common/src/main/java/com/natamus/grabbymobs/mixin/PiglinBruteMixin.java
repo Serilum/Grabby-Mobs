@@ -1,6 +1,7 @@
 package com.natamus.grabbymobs.mixin;
 
 import com.natamus.grabbymobs.util.Util;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.monster.piglin.PiglinBrute;
 import net.minecraft.world.item.ItemStack;
@@ -11,8 +12,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(value = PiglinBrute.class, priority = 1001)
 public class PiglinBruteMixin {
-	@Inject(method = "wantsToPickUp(Lnet/minecraft/world/item/ItemStack;)Z", at = @At(value = "HEAD"), cancellable = true)
-	public void wantsToPickUp(ItemStack itemStack, CallbackInfoReturnable<Boolean> cir) {
+	@Inject(method = "wantsToPickUp(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)Z", at = @At(value = "HEAD"), cancellable = true)
+	public void wantsToPickUp(ServerLevel serverLevel, ItemStack itemStack, CallbackInfoReturnable<Boolean> cir) {
 		if (Util.wantsToPickUp((Mob)(Object)this, itemStack)) {
 			cir.setReturnValue(true);
 		}
