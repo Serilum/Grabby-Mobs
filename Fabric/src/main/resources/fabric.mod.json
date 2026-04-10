@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "grabbymobs",
+  "version": "1.7",
+
+  "name": "Grabby Mobs",
+  "description": "Makes all mobs which are able to carry gear always be able to do so.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/grabby-mobs",
+    "sources": "https://github.com/Serilum/Grabby-Mobs",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Grabby%20Mobs"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.grabbymobs.ModFabric" ] },
+  "mixins": [
+    "grabbymobs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "collective": ">=8.17"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://serilum.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " akanealw",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " MWS",
+	  " t128",
+	  " Tyler Behl",
+	  " XAgent",
+	  " ตัวตรึง พระนคร"
+  ]
+}
