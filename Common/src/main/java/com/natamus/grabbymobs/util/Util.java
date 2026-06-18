@@ -1,8 +1,8 @@
 package com.natamus.grabbymobs.util;
 
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.ItemStack;
 
@@ -18,20 +18,20 @@ public class Util {
 		final List<EquipmentSlot> allEquipment = new ArrayList<EquipmentSlot>(Arrays.asList(EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND));
 		final List<EquipmentSlot> noArmour = new ArrayList<EquipmentSlot>(Arrays.asList(EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND));
 
-		possibleEquipment.put(EntityType.DROWNED, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.EVOKER, new ArrayList<EquipmentSlot>(noArmour));
-		possibleEquipment.put(EntityType.HUSK, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.PIGLIN, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.PIGLIN_BRUTE, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.SKELETON, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.STRAY, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.VEX, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.VINDICATOR, new ArrayList<EquipmentSlot>(noArmour));
-		possibleEquipment.put(EntityType.WITCH, new ArrayList<EquipmentSlot>(Arrays.asList(EquipmentSlot.MAINHAND)));
-		possibleEquipment.put(EntityType.WITHER_SKELETON, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.ZOMBIE, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.ZOMBIE_VILLAGER, new ArrayList<EquipmentSlot>(allEquipment));
-		possibleEquipment.put(EntityType.ZOMBIFIED_PIGLIN, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.DROWNED, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.EVOKER, new ArrayList<EquipmentSlot>(noArmour));
+		possibleEquipment.put(EntityTypes.HUSK, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.PIGLIN, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.PIGLIN_BRUTE, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.SKELETON, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.STRAY, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.VEX, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.VINDICATOR, new ArrayList<EquipmentSlot>(noArmour));
+		possibleEquipment.put(EntityTypes.WITCH, new ArrayList<EquipmentSlot>(Arrays.asList(EquipmentSlot.MAINHAND)));
+		possibleEquipment.put(EntityTypes.WITHER_SKELETON, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.ZOMBIE, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.ZOMBIE_VILLAGER, new ArrayList<EquipmentSlot>(allEquipment));
+		possibleEquipment.put(EntityTypes.ZOMBIFIED_PIGLIN, new ArrayList<EquipmentSlot>(allEquipment));
 	}
 
 	public static boolean canPickUp(Mob mob) {
