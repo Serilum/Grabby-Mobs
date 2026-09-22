@@ -1,5 +1,5 @@
 <h2>Grabby Mobs</h2>
-<p><a href="https://github.com/Serilum/Grabby-Mobs"><img src="https://serilum.com/assets/images/logo/grabby-mobs.gif"></a></p><h2>Download</h2>
+<p><a href="https://github.com/Serilum/Grabby-Mobs"><img src="https://workflow.serilum.com/web/logo/128/grabby-mobs.gif" width="100" height="100"></a></p><h2>Download</h2>
 <p>You can download Grabby Mobs on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/grabby-mobs">https://curseforge.com/minecraft/mc-mods/grabby-mobs</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/grabby-mobs">https://modrinth.com/mod/grabby-mobs</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
