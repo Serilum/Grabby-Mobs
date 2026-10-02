@@ -1,6 +1,6 @@
-package com.natamus.grabbymobs.mixin;
+package com.serilum.grabbymobs.mixin;
 
-import com.natamus.grabbymobs.util.Util;
+import com.serilum.grabbymobs.util.Util;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.ItemStack;
