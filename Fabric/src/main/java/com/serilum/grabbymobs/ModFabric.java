@@ -1,8 +1,8 @@
-package com.natamus.grabbymobs;
+package com.serilum.grabbymobs;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.grabbymobs.util.Reference;
+import com.serilum.grabbymobs.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

@@ -1,4 +1,4 @@
-package com.natamus.grabbymobs.util;
+package com.serilum.grabbymobs.util;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityTypes;
