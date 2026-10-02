@@ -1,8 +1,7 @@
-package com.natamus.grabbymobs.util;
+package com.serilum.grabbymobs.util;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.ItemStack;
 

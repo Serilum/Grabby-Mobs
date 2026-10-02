@@ -1,6 +1,6 @@
-package com.natamus.grabbymobs;
+package com.serilum.grabbymobs;
 
-import com.natamus.grabbymobs.util.Util;
+import com.serilum.grabbymobs.util.Util;
 
 public class ModCommon {
 
