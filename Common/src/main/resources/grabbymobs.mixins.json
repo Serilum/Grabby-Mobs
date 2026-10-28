@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.grabbymobs.mixin",
+  "package": "com.serilum.grabbymobs.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
     "MobMixin",
