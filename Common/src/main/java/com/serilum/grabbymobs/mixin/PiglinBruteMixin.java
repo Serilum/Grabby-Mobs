@@ -13,8 +13,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class PiglinBruteMixin {
 	@Inject(method = "wantsToPickUp(Lnet/minecraft/world/item/ItemStack;)Z", at = @At(value = "HEAD"), cancellable = true)
 	public void wantsToPickUp(ItemStack itemStack, CallbackInfoReturnable<Boolean> cir) {
-		if (Util.wantsToPickUp((Mob)(Object)this, itemStack)) {
-			cir.setReturnValue(true);
+		Mob mob = (Mob)(Object)this;
+		if (Util.isGrabbingMob(mob)) {
+			cir.setReturnValue(Util.wantsToPickUp(mob, itemStack));
 		}
 	}
 }

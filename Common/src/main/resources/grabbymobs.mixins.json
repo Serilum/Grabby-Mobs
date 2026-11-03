@@ -4,8 +4,10 @@
   "package": "com.serilum.grabbymobs.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "LivingEntityMixin",
     "MobMixin",
-    "PiglinBruteMixin"
+    "PiglinBruteMixin",
+    "WitchMixin"
   ],
   "client": [
   ],

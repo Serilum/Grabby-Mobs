@@ -2,8 +2,10 @@ package com.serilum.grabbymobs;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
+import com.serilum.grabbymobs.neoforge.config.IntegrateNeoForgeConfig;
 import com.serilum.grabbymobs.util.Reference;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 
@@ -19,6 +21,8 @@ public class ModNeoForge {
 
 		setGlobalConstants();
 		ModCommon.init();
+
+		IntegrateNeoForgeConfig.registerScreen(ModLoadingContext.get());
 
 		RegisterMod.register(Reference.NAME, Reference.MOD_ID, Reference.VERSION, Reference.ACCEPTED_VERSIONS);
 	}
