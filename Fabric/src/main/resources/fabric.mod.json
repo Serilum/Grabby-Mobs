@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "grabbymobs",
-  "version": "1.8",
+  "version": "2.0",
 
   "name": "Grabby Mobs",
   "description": "Makes all mobs which are able to carry gear always be able to do so.",
@@ -16,7 +16,7 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.serilum.grabbymobs.ModFabric" ] },
+  "entrypoints": { "main": [ "com.serilum.grabbymobs.ModFabric" ], "modmenu": [ "com.serilum.grabbymobs.fabric.config.IntegrateModMenu" ] },
   "mixins": [
     "grabbymobs.mixins.json"
   ],
@@ -26,7 +26,7 @@
     "fabric-api": "*",
     "minecraft": ">=26.1",
     "java": ">=25",
-    "collective": ">=8.67"
+    "collective": ">=8.75"
   },
 
   "custom": {
@@ -44,7 +44,6 @@
 	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
-	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
 	  " Linda Jansen",
