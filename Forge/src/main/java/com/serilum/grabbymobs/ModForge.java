@@ -2,6 +2,7 @@ package com.serilum.grabbymobs;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
+import com.serilum.grabbymobs.forge.config.IntegrateForgeConfig;
 import com.serilum.grabbymobs.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
@@ -21,6 +22,8 @@ public class ModForge {
 
 		setGlobalConstants();
 		ModCommon.init();
+
+		IntegrateForgeConfig.registerScreen(modLoadingContext);
 
 		RegisterMod.register(Reference.NAME, Reference.MOD_ID, Reference.VERSION, Reference.ACCEPTED_VERSIONS);
 	}
